@@ -553,7 +553,6 @@ p {
     background-image: linear-gradient(to bottom, rgba(24, 50, 90, 0.973) , rgba(65, 115, 190, 0.795));
 }
 
-.logitos{
-    animation-duration: 3s;
-    animation-name: slidein;
+.logito1:hover{
+    transform: scale(2);
 }
