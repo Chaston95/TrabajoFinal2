@@ -9,7 +9,6 @@
     display:grid;
     grid-template-columns: 30% 70%;
     height: 100%; 
-    background-image: linear-gradient(to bottom, rgba(24, 50, 90, 0.952) , rgba(65, 115, 190, 0.856));
     border: 2px solid rgba(31, 58, 80, 0.801);
     margin: 10px;
     border-radius: 5px;
@@ -525,3 +524,36 @@ footer{
 
 }
 
+/* animaciones :D*/
+
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+      
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+
+  }
+
+  .footer{
+    background-image: linear-gradient(to bottom, rgba(24, 50, 90, 0.952) , rgba(65, 115, 190, 0.856));
+}
+
+.header1{
+    background-image: linear-gradient(to bottom, rgba(24, 50, 90, 0.973) , rgba(65, 115, 190, 0.795));
+}
+
+.logitos{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
