@@ -6,8 +6,6 @@
 }
 
 .header1{
-    display:grid;
-    grid-template-columns: 30% 70%;
     height: 100%; 
     border: 2px solid rgba(31, 58, 80, 0.801);
     margin: 10px;
@@ -16,29 +14,32 @@
     padding: 2px;  
 }
 
-ul{
+nav{
+    
     display: grid;
-    grid-template-columns: repeat(5, 20%);
-    justify-items: center;
-    list-style-type: none;
+    grid-template-columns: 50% 50%;
     font-family: 'Titillium Web', sans-serif;
     font-size: 14px;
     margin: 10px;
     border-radius: 5px;
     border: 10px;
     padding: 2px; 
+    background-color: rgba(14, 14, 138, 0.719); 
+    list-style-type: none; 
 }
 
-nav{
+ul{
     list-style-type: none;
-    align-items: center;
     font-family: 'Titillium Web', sans-serif;
-    font-size: 14px;
-    border: 2px solid rgba(31, 58, 80, 0.801);
+    font-size: 16px;
     margin: 10px;
     border-radius: 5px;
     border: 10px;
-    padding: 2px;   
+    padding: 2px; 
+}
+
+.flexNav{
+    justify-content: space-around;
 }
 
 a{
