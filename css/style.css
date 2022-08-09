@@ -41,13 +41,7 @@ ul{
 .flexNav{
     justify-content: space-around;
 }
-.carusel{
-    border-radius: 8px;
-    border: 2px solid rgba(31, 58, 80, 0.801);
-    padding: 2px;
-    margin: 10px;
 
-}
 
 a{
     text-decoration: none;
