@@ -14,8 +14,7 @@
     padding: 2px;  
 }
 
-nav{
-    
+nav{  
     display: grid;
     grid-template-columns: 50% 50%;
     font-family: 'Titillium Web', sans-serif;
@@ -38,8 +37,15 @@ ul{
     padding: 2px; 
 }
 
-.flexNav{
-    justify-content: space-around;
+.flexNav{  
+    justify-content: flex-end;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(117, 197, 235)!important;
+    font-size: medium;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
 }
 
 
@@ -49,7 +55,6 @@ a{
 }
 
 body{
-
     background-image: url(../images/fondo\ inicio.png);
     color: aliceblue;
     text-align: center;
@@ -88,7 +93,7 @@ h2 {
 
 .producto2{
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 50% 50%;
     background-color: rgba(11, 6, 51, 0.733);
     margin: 10px;
     border-radius: 5px;
@@ -96,9 +101,13 @@ h2 {
     padding: 2px; 
 }
 
+.d-block{
+    margin:auto;
+}
+
 .imgProducto{
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    align-content: center;
     justify-items: center;
 }
 
@@ -172,7 +181,6 @@ h3{
 .nProductos{
     display: grid; 
     grid-template-columns: 100%;
-    grid-template-rows:15% 85%;
     background-color: rgba(11, 6, 51, 0.733);
     font-family: 'Titillium Web', sans-serif; 
     margin: 10px;
@@ -190,13 +198,16 @@ h3{
     margin: 10px;
     border-radius: 5px;
     border: 10px;
-    padding: 2px; 
+    padding: 2px;
+     
 }
 
 .img22{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
+
 .imgPrincipal2 {
     border-radius: 5px;
     border: 2px solid rgba(31, 58, 80, 0.801);
@@ -233,15 +244,22 @@ footer{
 .video{
     width: 500px;
     height: 500px;
-    
     margin: 8vh;
     border-radius: 5px; 
 }
 
 .logitos{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     justify-items: center;
+    align-items: center; 
+}
+.logito1{
+    padding: 2px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 10px;
 }
 
 .historia1, .historia2, .historia3{
@@ -470,8 +488,11 @@ footer{
         justify-content: center;
         align-content: center;
     }
-     
-    
+    .img2{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+      
 }
 
 @media (min-width:780px){
@@ -489,7 +510,7 @@ footer{
     .sobreNosotros2{
         grid-template-columns: 40% 60%;
         grid-template-areas:
-        "sobreNosotros img2"
+        "sobreNosotros img2 img2"
     }
     .comoFunciona2{
         grid-template-columns: 40% 60%;
@@ -518,7 +539,7 @@ footer{
     }
     .img22{
         display: flex;
-        flex-direction: row;
+        flex-direction:row;
         flex-wrap: wrap;
         justify-content: center;
         align-content: center;
@@ -526,8 +547,8 @@ footer{
 
 }
 
-/* animaciones :D*/
 
+/* animaciones :D*/
 p {
     animation-duration: 3s;
     animation-name: slidein;
@@ -536,8 +557,7 @@ p {
   @keyframes slidein {
     from {
       margin-left: 100%;
-      width: 300%
-      
+      width: 300% 
     }
 
     to {
