@@ -4,59 +4,11 @@
   margin: 0;
 }
 
-.header1 {
-  height: 100%;
-  border: 2px solid rgba(31, 58, 80, 0.801);
-  margin: 10px;
-  border-radius: 5px;
-  border: 10px;
-  padding: 2px;
-}
-
-nav {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  font-family: "Titillium Web", sans-serif;
-  font-size: 14px;
-  margin: 10px;
-  border-radius: 5px;
-  border: 10px;
-  padding: 2px;
-  background-color: rgba(14, 14, 138, 0.719);
-  list-style-type: none;
-}
-
-ul {
-  list-style-type: none;
-  font-family: "Titillium Web", sans-serif;
-  font-size: 16px;
-  margin: 10px;
-  border-radius: 5px;
-  border: 10px;
-  padding: 2px;
-}
-
-.flexNav {
-  justify-content: flex-end;
-}
-
-li a {
-  text-decoration: none;
-  color: rgb(128, 213, 252) !important;
-  font-size: medium;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: aliceblue;
-}
-
 body {
   background-image: url(../images/fondo\ inicio.png);
   color: aliceblue;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Titillium Web";
   font-weight: bolder;
   display: flex;
   flex-direction: column;
@@ -66,7 +18,7 @@ body {
 h1 {
   font-style: normal;
   font-weight: bolder;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Titillium Web";
   border: 2px solid rgba(31, 58, 80, 0.801);
   text-align: center;
   margin: 10px;
@@ -75,8 +27,172 @@ h1 {
   padding: 2px;
 }
 
-h2 {
-  background-color: rgba(11, 6, 51, 0.733);
+header {
+  height: 100%;
+  border: 2px solid rgba(31, 58, 80, 0.801);
+  margin: 10px;
+  margin-top: 0px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+header nav {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 14px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+  list-style-type: none;
+}
+header nav .flexNav {
+  justify-content: flex-end;
+}
+header nav ul {
+  list-style-type: none;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+  background-color: rgba(48, 72, 177, 0.85);
+}
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(252, 252, 252) !important;
+  font-size: medium;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.producto2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: rgba(16, 11, 88, 0.75);
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.producto2 h2 {
+  background-color: rgba(48, 72, 177, 0.85);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Titillium Web", sans-serif;
+  border: 2px solid rgba(31, 58, 80, 0.801);
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.producto2 h2 p {
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+
+.sobreNosotros2 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  background-color: rgba(16, 11, 88, 0.75);
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+  margin: 10px;
+}
+.sobreNosotros2 h2 {
+  background-color: rgba(48, 72, 177, 0.85);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Titillium Web", sans-serif;
+  border: 2px solid rgba(31, 58, 80, 0.801);
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.sobreNosotros2 h2 p {
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.sobreNosotros2 .imgProducto {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+}
+
+.comoFunciona2 {
+  display: grid;
+  background-color: rgba(16, 11, 88, 0.75);
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.comoFunciona2 h2 {
+  background-color: rgba(48, 72, 177, 0.85);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Titillium Web", sans-serif;
+  border: 2px solid rgba(31, 58, 80, 0.801);
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.comoFunciona2 h2 p {
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.comoFunciona2 .imgProducto {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+}
+
+.video2 {
+  display: grid;
+  grid-template-rows: 15% 85%;
+  background-color: rgba(16, 11, 88, 0.75);
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.video2 .video {
+  margin: 8vh;
+  border-radius: 5px;
+}
+.video2 h2 {
+  background-color: rgba(48, 72, 177, 0.85);
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -89,10 +205,136 @@ h2 {
   padding: 2px;
 }
 
-.producto2 {
+footer {
   display: grid;
-  grid-template-columns: 50% 50%;
-  background-color: rgba(11, 6, 51, 0.733);
+  grid-template-rows: 40% 60%;
+  margin: 10px;
+  margin-bottom: 0px;
+  background-color: rgba(161, 248, 61, 0.733);
+  font-family: "Titillium Web", sans-serif;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+footer h3 {
+  background-color: rgba(48, 72, 177, 0.85);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Titillium Web", sans-serif;
+  border: 2px solid rgba(31, 58, 80, 0.801);
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+  text-align: center;
+}
+footer .logitos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+footer .logitos .logito1 {
+  padding: 2px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: 10px;
+}
+
+.nProductos {
+  display: grid;
+  grid-template-columns: 100%;
+  background-color: rgba(16, 11, 88, 0.75);
+  font-family: "Titillium Web", sans-serif;
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.nProductos .nvProductos {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Titillium Web", sans-serif;
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.nProductos .nvProductos h2 {
+  background-color: rgba(48, 72, 177, 0.85);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Titillium Web", sans-serif;
+  border: 2px solid rgba(31, 58, 80, 0.801);
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.nProductos .imgPrincipal2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 5px;
+  border: 2px solid rgba(31, 58, 80, 0.801);
+  margin: 6px;
+  padding: 2px;
+}
+
+.historia {
+  background-color: rgba(16, 11, 88, 0.75);
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.historia .historia1, .historia .historia2, .historia .historia3 {
+  display: grid;
+  grid-template-columns: 100%;
+}
+.historia .historia1 h2, .historia .historia2 h2, .historia .historia3 h2 {
+  background-color: rgba(48, 72, 177, 0.85);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Titillium Web", sans-serif;
+  border: 2px solid rgba(31, 58, 80, 0.801);
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.historia .historia1 h2 p, .historia .historia2 h2 p, .historia .historia3 h2 p {
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.historia .historia1 h2 p .ImgPrincipal, .historia .historia2 h2 p .ImgPrincipal, .historia .historia3 h2 p .ImgPrincipal {
+  border-radius: 5px;
+  border: 2px solid rgba(31, 58, 80, 0.801);
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+
+.form {
+  background-color: rgba(16, 11, 88, 0.75);
+  border: 2px solid rgba(31, 58, 80, 0.801);
   margin: 10px;
   border-radius: 5px;
   border: 10px;
@@ -101,185 +343,6 @@ h2 {
 
 .d-block {
   margin: auto;
-}
-
-.imgProducto {
-  display: grid;
-  align-content: center;
-  justify-items: center;
-}
-
-.sobreNosotros2 {
-  display: grid;
-  grid-template-columns: 40% 60%;
-  background-color: rgba(11, 6, 51, 0.733);
-  margin: 10px;
-  border-radius: 5px;
-  border: 10px;
-  padding: 2px;
-}
-
-.comoFunciona2 {
-  display: grid;
-  grid-template-columns: 40% 60%;
-  background-color: rgba(11, 6, 51, 0.733);
-  margin: 10px;
-  border-radius: 5px;
-  border: 10px;
-  padding: 2px;
-}
-
-p {
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 600;
-  font-family: "Times New Roman", Times, serif;
-  color: aliceblue;
-  margin: 10px;
-  border-radius: 5px;
-  border: 10px;
-  padding: 2px;
-}
-
-h3 {
-  background-color: rgba(11, 6, 51, 0.733);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  font-family: "Titillium Web", sans-serif;
-  text-align: start;
-  border: 2px solid rgba(31, 58, 80, 0.801);
-  margin: 10px;
-  border-radius: 5px;
-  border: 10px;
-  padding: 2px;
-}
-
-.redes {
-  background-color: rgba(11, 6, 51, 0.733);
-  text-align: center;
-  border: 2px solid rgba(31, 58, 80, 0.801);
-  margin: 10px;
-  border-radius: 5px;
-  border: 10px;
-  padding: 2px;
-}
-
-.ImgPrincipal {
-  border-radius: 5px;
-  border: 2px solid rgba(31, 58, 80, 0.801);
-  width: 1fr;
-  height: 1fr;
-  margin: 10px;
-  border-radius: 5px;
-  border: 10px;
-  padding: 2px;
-}
-
-.nProductos {
-  display: grid;
-  grid-template-columns: 100%;
-  background-color: rgba(11, 6, 51, 0.733);
-  font-family: "Titillium Web", sans-serif;
-  margin: 10px;
-  border-radius: 5px;
-  border: 10px;
-  padding: 2px;
-}
-
-.nvProductos {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  font-family: "Titillium Web", sans-serif;
-  text-align: center;
-  margin: 10px;
-  border-radius: 5px;
-  border: 10px;
-  padding: 2px;
-}
-
-.img22 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.imgPrincipal2 {
-  border-radius: 5px;
-  border: 2px solid rgba(31, 58, 80, 0.801);
-  width: 150px;
-  height: 120px;
-  margin: 6px;
-  border-radius: 5px;
-  border: 6px;
-  padding: 2px;
-}
-
-footer {
-  display: grid;
-  grid-template-rows: 40% 60%;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  background-color: rgba(11, 6, 51, 0.733);
-  font-family: "Titillium Web", sans-serif;
-  border-radius: 5px;
-  border: 10px;
-  padding: 2px;
-}
-
-.video2 {
-  display: grid;
-  grid-template-rows: 15% 85%;
-  background-color: rgba(11, 6, 51, 0.733);
-  margin: 10px;
-  border-radius: 5px;
-  border: 10px;
-  padding: 2px;
-}
-
-.video {
-  width: 500px;
-  height: 500px;
-  margin: 8vh;
-  border-radius: 5px;
-}
-
-.logitos {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-}
-
-.logito1 {
-  padding: 2px;
-  margin-left: 15px;
-  margin-right: 15px;
-  border: 10px;
-}
-
-.historia1, .historia2, .historia3 {
-  display: grid;
-  grid-template-columns: 100%;
-  background-color: rgba(11, 6, 51, 0.733);
-  margin: 10px;
-  border-radius: 5px;
-  border: 10px;
-  padding: 2px;
-}
-
-p {
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 600;
-  font-family: "Times New Roman", Times, serif;
-  color: aliceblue;
-  margin: 10px;
-  border-radius: 5px;
-  border: 10px;
-  padding: 2px;
 }
 
 /*grids areas :D*/
@@ -426,6 +489,12 @@ footer {
     grid-template-columns: 100%;
     grid-template-areas: "historia1" "historia2" "historia3";
   }
+  .img22 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 @media (min-width: 480px) {
   .header1 {
@@ -458,7 +527,7 @@ footer {
     height: 300px;
   }
   .imgPrincipal2 {
-    width: 200px;
+    width: 300px;
     height: 200px;
   }
   .nProductos {
@@ -472,7 +541,6 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
   }
   .img2 {
     display: grid;
@@ -511,12 +579,15 @@ footer {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: "nvProductos " "img22 " "img22 " "img22 ";
   }
+  .ImgPrincipal {
+    width: 500px;
+    height: 300px;
+  }
   .img22 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
   }
 }
 /* animaciones :D*/
@@ -549,11 +620,11 @@ p {
   }
 }
 .footer {
-  background-image: linear-gradient(to bottom, rgba(24, 50, 90, 0.952), rgba(65, 115, 190, 0.856));
+  background-image: linear-gradient(to bottom, rgba(23, 67, 134, 0.932), rgba(7, 13, 36, 0.9));
 }
 
 .header1 {
-  background-image: linear-gradient(to bottom, rgba(24, 50, 90, 0.973), rgba(65, 115, 190, 0.795));
+  background-image: linear-gradient(to bottom, rgba(23, 67, 134, 0.932), rgba(7, 13, 36, 0.9));
 }
 
 .logito1:hover {

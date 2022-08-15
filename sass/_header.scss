@@ -1,0 +1,43 @@
+header{
+    height: 100%; 
+    border: 2px solid rgba(31, 58, 80, 0.801);
+    margin: 10px;
+    margin-top: 0px;
+    border-radius: 5px;
+    border: 10px;
+    padding: 2px;
+    
+    nav{  
+        display: grid;
+        grid-template-columns: 50% 50%;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 14px;
+        margin: 10px;
+        border-radius: 5px;
+        border: 10px;
+        padding: 2px; 
+        list-style-type: none;
+        
+        .flexNav{  
+            justify-content: flex-end;
+        }
+        
+        ul{
+            list-style-type: none;
+            font-family: 'Titillium Web', sans-serif;
+            font-size: 16px;
+            margin: 10px;
+            border-radius: 5px;
+            border: 10px;
+            padding: 2px;
+            background-color:$colorFondoTextos; 
+
+            li a{
+                text-decoration: none;
+                color: rgb(252, 252, 252)!important;
+                font-size: medium;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+            }
+        }
+    }
+}

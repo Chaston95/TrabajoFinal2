@@ -1,289 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,600;0,900;1,300&display=swap');
+@import "variableFondo";
+@import "fuentes";
+@import "generales";
+@import "titulo";
+@import"header";
+@import "producto2";
+@import "sobreNosotros2";
+@import "comoFunciona2";
+@import"video2";
+@import"footer";
+@import "nProductos";
+@import "historia";
+@import "contacto";
 
-* {
-    padding:0;
-    margin:0;
-}
-
-.header1{
-    height: 100%; 
-    border: 2px solid rgba(31, 58, 80, 0.801);
-    margin: 10px;
-    border-radius: 5px;
-    border: 10px;
-    padding: 2px;  
-}
-
-nav{  
-    display: grid;
-    grid-template-columns: 50% 50%;
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 14px;
-    margin: 10px;
-    border-radius: 5px;
-    border: 10px;
-    padding: 2px; 
-    background-color: rgba(14, 14, 138, 0.719); 
-    list-style-type: none; 
-}
-
-ul{
-    list-style-type: none;
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 16px;
-    margin: 10px;
-    border-radius: 5px;
-    border: 10px;
-    padding: 2px; 
-}
-
-.flexNav{  
-    justify-content: flex-end;
-}
-
-li a{
-    text-decoration: none;
-    color: rgb(128, 213, 252)!important;
-    font-size: medium;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
-}
-
-
-a{
-    text-decoration: none;
-    color:aliceblue
-}
-
-body{
-    background-image: url(../images/fondo\ inicio.png);
-    color: aliceblue;
-    text-align: center;
-    font-family: 'Poppins',sans-serif;
-    font-weight: bolder;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-h1{
-    font-style: normal;
-    font-weight: bolder;
-    font-family: 'Titillium Web', sans-serif;
-    border: 2px solid rgba(31, 58, 80, 0.801);
-    text-align: center;
-    margin: 10px;
-    border-radius: 5px;
-    border: 10px;
-    padding: 2px; 
-}
-
-h2 {
-    background-color: rgba(11, 6, 51, 0.733);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    font-family: 'Titillium Web', sans-serif;
-    border: 2px solid rgba(31, 58, 80, 0.801);
-    text-align: center;
-    margin: 10px;
-    border-radius: 5px;
-    border: 10px;
-    padding: 2px; 
-}
-
-.producto2{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: rgba(11, 6, 51, 0.733);
-    margin: 10px;
-    border-radius: 5px;
-    border: 10px;
-    padding: 2px; 
-}
 
 .d-block{
     margin:auto;
 }
-
-.imgProducto{
-    display: grid;
-    align-content: center;
-    justify-items: center;
-}
-
-.sobreNosotros2{
-    display: grid;
-    grid-template-columns: 40% 60%;
-    background-color: rgba(11, 6, 51, 0.733);
-    margin: 10px;
-    border-radius: 5px;
-    border: 10px;
-    padding: 2px; 
-}
-
-.comoFunciona2{
-    display: grid;
-    grid-template-columns: 40% 60%;
-    background-color: rgba(11, 6, 51, 0.733);
-    margin: 10px;
-    border-radius: 5px;
-    border: 10px;
-    padding: 2px; 
-}
-
-p{
-    font-style: normal;
-    font-size: 16px;
-    font-weight:600;
-    font-family:'Times New Roman', Times, serif;
-    color: aliceblue;
-    margin: 10px;
-    border-radius: 5px;
-    border: 10px;
-    padding: 2px; 
-}
-
-h3{
-    background-color: rgba(11, 6, 51, 0.733);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    font-family: 'Titillium Web', sans-serif;
-    text-align:start;
-    border: 2px solid rgba(31, 58, 80, 0.801);
-    margin: 10px;
-    border-radius: 5px;
-    border: 10px;
-    padding: 2px; 
-}
-
-.redes{
-    background-color: rgba(11, 6, 51, 0.733);
-    text-align: center;
-    border: 2px solid rgba(31, 58, 80, 0.801);
-    margin: 10px;
-    border-radius: 5px;
-    border: 10px;
-    padding: 2px; 
-}
-
-.ImgPrincipal {
-    border-radius: 5px;
-    border: 2px solid rgba(31, 58, 80, 0.801);
-    width: 1fr;
-    height: 1fr;
-    margin: 10px;
-    border-radius: 5px;
-    border: 10px;
-    padding: 2px;  
-}
-
-.nProductos{
-    display: grid; 
-    grid-template-columns: 100%;
-    background-color: rgba(11, 6, 51, 0.733);
-    font-family: 'Titillium Web', sans-serif; 
-    margin: 10px;
-    border-radius: 5px;
-    border: 10px;
-    padding: 2px; 
-}
-
-.nvProductos{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    font-family: 'Titillium Web', sans-serif;
-    text-align: center;
-    margin: 10px;
-    border-radius: 5px;
-    border: 10px;
-    padding: 2px;
-     
-}
-
-.img22{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.imgPrincipal2 {
-    border-radius: 5px;
-    border: 2px solid rgba(31, 58, 80, 0.801);
-    width: 150px;
-    height:120px;
-    margin: 6px;
-    border-radius: 5px;
-    border: 6px;
-    padding: 2px;   
-}
-
-footer{
-    display: grid;
-    grid-template-rows: 40% 60%;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    background-color: rgba(11, 6, 51, 0.733);
-    font-family: 'Titillium Web', sans-serif; 
-    border-radius: 5px;
-    border: 10px;
-    padding: 2px; 
-}
-
-.video2{
-    display: grid;
-    grid-template-rows: 15% 85%;
-    background-color: rgba(11, 6, 51, 0.733);
-    margin: 10px;
-    border-radius: 5px;
-    border: 10px;
-    padding: 2px;   
-}
-
-.video{
-    width: 500px;
-    height: 500px;
-    margin: 8vh;
-    border-radius: 5px; 
-}
-
-.logitos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-items: center;
-    align-items: center; 
-}
-.logito1{
-    padding: 2px;
-    margin-left: 15px;
-    margin-right: 15px;
-    border: 10px;
-}
-
-.historia1, .historia2, .historia3{
-    display: grid;
-    grid-template-columns: 100%;
-    background-color: rgba(11, 6, 51, 0.733);
-    margin: 10px;
-    border-radius: 5px;
-    border: 10px;
-    padding: 2px; 
-}
-
-p{
-    font-style: normal;
-    font-size: 16px;
-    font-weight:600;
-    font-family:'Times New Roman', Times, serif;
-    color: aliceblue;
-    margin: 10px;
-    border-radius: 5px;
-    border: 10px;
-    padding: 2px; 
-}
-
 
 /*grids areas :D*/
 body{
@@ -359,7 +91,6 @@ footer{
     grid-area:historia3;
 }
 
-
 @media (min-width:300px){
     .header1{
         margin-bottom: 1.5em;
@@ -425,6 +156,12 @@ footer{
         "historia2"
         "historia3"
     }
+    .img22{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 @media (min-width:480px){
@@ -468,7 +205,7 @@ footer{
         height: 300px;
     }
     .imgPrincipal2{
-        width: 200px;
+        width: 300px;
         height: 200px; 
     }
     .nProductos{
@@ -486,13 +223,11 @@ footer{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        align-content: center;
     }
     .img2{
         display: grid;
         grid-template-columns: 1fr 1fr ;
-    }
-      
+    }   
 }
 
 @media (min-width:780px){
@@ -537,16 +272,19 @@ footer{
         "img22 "
         "img22 "
     }
-    .img22{
-        display: flex;
-        flex-direction:row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
+
+    .ImgPrincipal{
+        width: 500px;
+        height: 300px;   
     }
 
+    .img22{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
 }
-
 
 /* animaciones :D*/
 p {
@@ -564,15 +302,14 @@ p {
       margin-left: 0%;
       width: 100%;
     }
-
   }
 
   .footer{
-    background-image: linear-gradient(to bottom, rgba(24, 50, 90, 0.952) , rgba(65, 115, 190, 0.856));
+    background-image: linear-gradient(to bottom, rgba(23, 67, 134, 0.932) , rgba(7, 13, 36, 0.90));
 }
 
 .header1{
-    background-image: linear-gradient(to bottom, rgba(24, 50, 90, 0.973) , rgba(65, 115, 190, 0.795));
+    background-image: linear-gradient(to bottom, rgb(23, 67, 134, 0.932) , rgba(7, 13, 36, 0.90));
 }
 
 .logito1:hover{

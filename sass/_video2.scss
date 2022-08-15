@@ -1,0 +1,31 @@
+.video2{
+    display: grid;
+    grid-template-rows: 15% 85%;
+    background-color:$colorFondo;
+    margin: 10px;
+    border-radius: 5px;
+    border: 10px;
+    padding: 2px;
+
+    .video{
+        margin: 8vh;
+        border-radius: 5px; 
+    }
+    
+    h2 {
+        background-color:$colorFondoTextos;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: 'Titillium Web', sans-serif;
+        border: 2px solid rgba(31, 58, 80, 0.801);
+        text-align: center;
+        margin: 10px;
+        border-radius: 5px;
+        border: 10px;
+        padding: 2px;
+    }
+
+    
+
+}

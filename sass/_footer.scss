@@ -1,0 +1,40 @@
+footer{
+    display: grid;
+    grid-template-rows: 40% 60%;
+    margin: 10px;
+    margin-bottom: 0px;
+    background-color: rgba(161, 248, 61, 0.733);
+    font-family: 'Titillium Web', sans-serif; 
+    border-radius: 5px;
+    border: 10px;
+    padding: 2px;
+    
+    h3{
+        background-color:$colorFondoTextos;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        font-family: 'Titillium Web', sans-serif;
+        border: 2px solid rgba(31, 58, 80, 0.801);
+        margin: 10px;
+        border-radius: 5px;
+        border: 10px;
+        padding: 2px;
+        text-align: center; 
+    }
+
+    .logitos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        
+        .logito1{
+            padding: 2px;
+            margin-left: 15px;
+            margin-right: 15px;
+            border: 10px;
+        }
+    }
+}
