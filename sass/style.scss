@@ -131,16 +131,16 @@ footer{
         "footer"  
     }
     .ImgPrincipal{
-        width: 200px;
-        height: 200px;   
+        width: 250px;
+        height: 250px;   
     }
     .video{
         width: 200px;
         height: 200px;
     }
     .imgPrincipal2{
-        width: 200px;
-        height: 200px; 
+        width: 250px;
+        height: 250px; 
     }
     .nProductos{
         display: grid;
@@ -205,8 +205,8 @@ footer{
         height: 300px;
     }
     .imgPrincipal2{
-        width: 300px;
-        height: 200px; 
+        width: 250px;
+        height: 250px; 
     }
     .nProductos{
         display: grid;
@@ -226,7 +226,8 @@ footer{
     }
     .img2{
         display: grid;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
     }   
 }
 
@@ -274,8 +275,8 @@ footer{
     }
 
     .ImgPrincipal{
-        width: 500px;
-        height: 300px;   
+        width: 200px;
+        height: 200px;   
     }
 
     .img22{
