@@ -58,7 +58,7 @@ header nav ul {
   border-radius: 5px;
   border: 10px;
   padding: 2px;
-  background-color: rgba(48, 72, 177, 0.85);
+  background-color: rgba(43, 57, 126, 0.658);
 }
 header nav ul li a {
   text-decoration: none;
@@ -77,7 +77,7 @@ header nav ul li a {
   padding: 2px;
 }
 .producto2 h2 {
-  background-color: rgba(48, 72, 177, 0.85);
+  background-color: rgba(43, 57, 126, 0.658);
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -111,7 +111,7 @@ header nav ul li a {
   margin: 10px;
 }
 .sobreNosotros2 h2 {
-  background-color: rgba(48, 72, 177, 0.85);
+  background-color: rgba(43, 57, 126, 0.658);
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -149,7 +149,7 @@ header nav ul li a {
   padding: 2px;
 }
 .comoFunciona2 h2 {
-  background-color: rgba(48, 72, 177, 0.85);
+  background-color: rgba(43, 57, 126, 0.658);
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -192,7 +192,7 @@ header nav ul li a {
   border-radius: 5px;
 }
 .video2 h2 {
-  background-color: rgba(48, 72, 177, 0.85);
+  background-color: rgba(43, 57, 126, 0.658);
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -210,19 +210,13 @@ footer {
   grid-template-rows: 40% 60%;
   margin: 10px;
   margin-bottom: 0px;
-  background-color: rgba(161, 248, 61, 0.733);
-  font-family: "Titillium Web", sans-serif;
   border-radius: 5px;
-  border: 10px;
-  padding: 2px;
 }
 footer h3 {
-  background-color: rgba(48, 72, 177, 0.85);
+  background-color: rgba(43, 57, 126, 0.658);
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
   font-family: "Titillium Web", sans-serif;
-  border: 2px solid rgba(31, 58, 80, 0.801);
   margin: 10px;
   border-radius: 5px;
   border: 10px;
@@ -241,6 +235,19 @@ footer .logitos .logito1 {
   margin-left: 15px;
   margin-right: 15px;
   border: 10px;
+}
+footer .redSocial, footer h3 {
+  border: 2px solid rgba(241, 242, 243, 0.801);
+  font-size: 18px;
+  color: black;
+}
+footer h3 {
+  color: rgb(255, 255, 255);
+}
+footer h3 {
+  border: 10px;
+  padding: 10px;
+  color: rgb(255, 0, 0);
 }
 
 .nProductos {
@@ -265,7 +272,7 @@ footer .logitos .logito1 {
   padding: 2px;
 }
 .nProductos .nvProductos h2 {
-  background-color: rgba(48, 72, 177, 0.85);
+  background-color: rgba(43, 57, 126, 0.658);
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -300,7 +307,7 @@ footer .logitos .logito1 {
   grid-template-columns: 100%;
 }
 .historia .historia1 h2, .historia .historia2 h2, .historia .historia3 h2 {
-  background-color: rgba(48, 72, 177, 0.85);
+  background-color: rgba(43, 57, 126, 0.658);
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -621,11 +628,11 @@ p {
   }
 }
 .footer {
-  background-image: linear-gradient(to bottom, rgba(23, 67, 134, 0.932), rgba(7, 13, 36, 0.9));
+  background-image: linear-gradient(to bottom, rgba(149, 151, 158, 0.836), rgb(23, 67, 134));
 }
 
 .header1 {
-  background-image: linear-gradient(to bottom, rgba(23, 67, 134, 0.932), rgba(7, 13, 36, 0.9));
+  background-image: linear-gradient(to bottom, rgb(23, 67, 134), rgba(149, 151, 158, 0.836));
 }
 
 .logito1:hover {

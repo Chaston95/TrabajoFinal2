@@ -3,19 +3,13 @@ footer{
     grid-template-rows: 40% 60%;
     margin: 10px;
     margin-bottom: 0px;
-    background-color: rgba(161, 248, 61, 0.733);
-    font-family: 'Titillium Web', sans-serif; 
     border-radius: 5px;
-    border: 10px;
-    padding: 2px;
     
     h3{
         background-color:$colorFondoTextos;
         font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
+        font-weight: bold; 
         font-family: 'Titillium Web', sans-serif;
-        border: 2px solid rgba(31, 58, 80, 0.801);
         margin: 10px;
         border-radius: 5px;
         border: 10px;
@@ -37,4 +31,28 @@ footer{
             border: 10px;
         }
     }
+    
+    //*extend*//
+.redSocial{
+    border: 2px solid rgba(241, 242, 243, 0.801);
+    font-size: 18px;
+    color: black;
 }
+
+h3{
+    @extend .redSocial;
+    color: rgb(255, 255, 255);
+}
+
+//*extend*//
+@mixin formas ($border, $padding){
+    border: $border;
+    padding: $padding;
+}
+h3{
+    @include formas (10px, 10px);
+    color: rgb(255, 0, 0);
+}
+
+}
+
