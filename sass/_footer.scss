@@ -44,7 +44,7 @@ h3{
     color: rgb(255, 255, 255);
 }
 
-//*extend*//
+//*mixins*//
 @mixin formas ($border, $padding){
     border: $border;
     padding: $padding;
