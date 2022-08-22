@@ -1,0 +1,25 @@
+Sass: extend y mixins.
+
+rama/seccion footer:
+
+se aplica el extend en la linea 35 del codigo.
+
+se aplica mixin en la linea 45 del codigo.
+
+
+Aplicando Seo:
+
+se aplica metas y titles en los 5 html.
+
+        <title>Inicio - GDimensiones3D</title>
+        <meta name="description" content="..contenido... ">
+        <meta name="keywords"  content="..contenido..."> 
+        <meta name="author" content="Gastón Guzmán">
+        <meta name="copiright" content="Guzmán.S.A.">
+
+En el index, liena de codigo 128:
+
+se re dimesionan img de la seccion "¿Cómo Funciona?"
+para que se adapten segun tamaño de pantalla y calidad de los pixeles.
+tambien se aplica un loading="lazy" a la img.
+
