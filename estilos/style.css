@@ -7,9 +7,8 @@
 body {
   background-image: url(../images/fondo\ inicio.png);
   color: aliceblue;
-  text-align: center;
   font-family: "Titillium Web";
-  font-weight: bolder;
+  font-weight: 600;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -17,7 +16,7 @@ body {
 
 h1 {
   font-style: normal;
-  font-weight: bolder;
+  font-weight: 600;
   font-family: "Titillium Web";
   border: 2px solid rgba(31, 58, 80, 0.801);
   text-align: center;
@@ -41,6 +40,7 @@ header nav {
   grid-template-columns: 50% 50%;
   font-family: "Titillium Web", sans-serif;
   font-size: 14px;
+  font-weight: 600;
   margin: 10px;
   border-radius: 5px;
   border: 10px;
@@ -79,7 +79,7 @@ header nav ul li a {
 .producto2 h2 {
   background-color: rgba(43, 57, 126, 0.658);
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 25px;
   font-family: "Titillium Web", sans-serif;
   border: 2px solid rgba(31, 58, 80, 0.801);
@@ -113,7 +113,7 @@ header nav ul li a {
 .sobreNosotros2 h2 {
   background-color: rgba(43, 57, 126, 0.658);
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 25px;
   font-family: "Titillium Web", sans-serif;
   border: 2px solid rgba(31, 58, 80, 0.801);
@@ -149,9 +149,10 @@ header nav ul li a {
   padding: 2px;
 }
 .comoFunciona2 h2 {
+  display: flex;
   background-color: rgba(43, 57, 126, 0.658);
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 25px;
   font-family: "Titillium Web", sans-serif;
   border: 2px solid rgba(31, 58, 80, 0.801);
@@ -187,18 +188,28 @@ header nav ul li a {
   border: 10px;
   padding: 2px;
 }
-.video2 .video {
-  margin: 8vh;
-  border-radius: 5px;
-}
 .video2 h2 {
   background-color: rgba(43, 57, 126, 0.658);
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 25px;
   font-family: "Titillium Web", sans-serif;
   border: 2px solid rgba(31, 58, 80, 0.801);
   text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.video2 .v2 {
+  display: grid;
+  background-color: rgba(16, 11, 88, 0.75);
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.video2 .v2 .video {
   margin: 10px;
   border-radius: 5px;
   border: 10px;
@@ -215,7 +226,7 @@ footer {
 footer h3 {
   background-color: rgba(43, 57, 126, 0.658);
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-family: "Titillium Web", sans-serif;
   margin: 10px;
   border-radius: 5px;
@@ -262,7 +273,7 @@ footer h3 {
 }
 .nProductos .nvProductos {
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 25px;
   font-family: "Titillium Web", sans-serif;
   text-align: center;
@@ -274,7 +285,7 @@ footer h3 {
 .nProductos .nvProductos h2 {
   background-color: rgba(43, 57, 126, 0.658);
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 25px;
   font-family: "Titillium Web", sans-serif;
   border: 2px solid rgba(31, 58, 80, 0.801);
@@ -309,7 +320,7 @@ footer h3 {
 .historia .historia1 h2, .historia .historia2 h2, .historia .historia3 h2 {
   background-color: rgba(43, 57, 126, 0.658);
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 25px;
   font-family: "Titillium Web", sans-serif;
   border: 2px solid rgba(31, 58, 80, 0.801);
@@ -320,6 +331,9 @@ footer h3 {
   padding: 2px;
 }
 .historia .historia1 h2 p, .historia .historia2 h2 p, .historia .historia3 h2 p {
+  display: flex;
+  align-items: center;
+  text-align: start;
   font-style: normal;
   font-size: 16px;
   font-weight: 600;
@@ -341,7 +355,63 @@ footer h3 {
 
 .form {
   background-color: rgba(16, 11, 88, 0.75);
+  font-weight: 600;
   border: 2px solid rgba(31, 58, 80, 0.801);
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+
+.cursos-section {
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.cursos-section .curso1, .cursos-section .curso2, .cursos-section .curso3 {
+  display: grid;
+  grid-template-columns: 100%;
+  background-color: rgba(16, 11, 88, 0.75);
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.cursos-section .curso1 h2, .cursos-section .curso2 h2, .cursos-section .curso3 h2 {
+  background-color: rgba(43, 57, 126, 0.658);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: "Titillium Web", sans-serif;
+  border: 2px solid rgba(31, 58, 80, 0.801);
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.cursos-section .curso1 p, .cursos-section .curso2 p, .cursos-section .curso3 p {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.cursos-section .curso1 .v2, .cursos-section .curso2 .v2, .cursos-section .curso3 .v2 {
+  display: grid;
+  margin: 10px;
+  border-radius: 5px;
+  border: 10px;
+  padding: 2px;
+}
+.cursos-section .curso1 .v2 .video, .cursos-section .curso2 .v2 .video, .cursos-section .curso3 .v2 .video {
   margin: 10px;
   border-radius: 5px;
   border: 10px;
