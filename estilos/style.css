@@ -347,7 +347,6 @@ footer h3 {
 }
 .historia .historia1 img, .historia .historia2 img, .historia .historia3 img {
   border-radius: 5px;
-  border: 2px solid rgba(31, 58, 80, 0.801);
   margin: 6px;
   padding: 2px;
 }
@@ -357,7 +356,6 @@ footer h3 {
   flex-wrap: wrap;
   justify-content: center;
   border-radius: 5px;
-  border: 2px solid rgba(31, 58, 80, 0.801);
   margin: 6px;
   padding: 2px;
 }
@@ -567,11 +565,11 @@ footer {
   }
   .ImgPrincipal {
     width: 250px;
-    height: 250px;
+    height: 150px;
   }
   .himg {
     width: 250px;
-    height: 250px;
+    height: 150px;
   }
   .video {
     width: 200px;
@@ -629,11 +627,11 @@ footer {
   }
   .imgPrincipal2 {
     width: 300px;
-    height: 200px;
+    height: 150px;
   }
   .himg {
     width: 300px;
-    height: 200px;
+    height: 150px;
   }
   .nProductos {
     display: grid;
@@ -690,11 +688,11 @@ footer {
   }
   .ImgPrincipal {
     width: 300px;
-    height: 200px;
+    height: 150px;
   }
   .himg {
     width: 300px;
-    height: 200px;
+    height: 150px;
   }
   .img22 {
     display: flex;
