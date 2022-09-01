@@ -52,6 +52,9 @@ body{
 .img22{
     grid-area:img22;
 }
+.himg{
+    grid-area:himg;
+}
 .nProductos{
     grid-area:nProductos;
 }
@@ -135,6 +138,11 @@ footer{
         width: 250px;
         height: 250px;   
     }
+    .himg{
+        width: 250px;
+        height: 250px; 
+    }
+
     .video{
         width: 200px;
         height: 200px;
@@ -206,13 +214,18 @@ footer{
         height: 300px;
     }
     .imgPrincipal2{
-        width: 250px;
-        height: 250px; 
+        width: 300px;
+        height: 200px;  
     }
+    .himg{
+        width: 300px;
+        height: 200px;   
+    }
+
     .nProductos{
         display: grid;
         grid-template-columns:100%;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        
         grid-template-areas:
         "nvProductos"
         "img22"
@@ -230,6 +243,11 @@ footer{
         grid-template-columns: 1fr 1fr;
         justify-items: center;
     }   
+    .img3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }  
 }
 
 @media (min-width:780px){
@@ -252,7 +270,7 @@ footer{
     .comoFunciona2{
         grid-template-columns: 40% 60%;
         grid-template-areas:
-        "comoFunciona img3"
+        "comoFunciona img3 img3"
     }
     .video2{
         grid-template-columns: 100%;
@@ -267,7 +285,6 @@ footer{
     .nProductos{
         display: grid;
         grid-template-columns:100%;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-areas:
         "nvProductos "
         "img22 "
@@ -276,8 +293,12 @@ footer{
     }
 
     .ImgPrincipal{
-        width: 200px;
+        width: 300px;
         height: 200px;   
+    }
+    .himg{
+        width: 300px;
+        height: 200px; 
     }
 
     .img22{

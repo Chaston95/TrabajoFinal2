@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(../images/fondo\ inicio.png);
+  background-image: url(../images/fondito.jpg);
   color: aliceblue;
   font-family: "Titillium Web";
   font-weight: 600;
@@ -142,11 +142,12 @@ header nav ul li a {
 
 .comoFunciona2 {
   display: grid;
+  grid-template-columns: 40% 60%;
   background-color: rgba(16, 11, 88, 0.75);
-  margin: 10px;
   border-radius: 5px;
   border: 10px;
   padding: 2px;
+  margin: 10px;
 }
 .comoFunciona2 h2 {
   display: flex;
@@ -330,7 +331,7 @@ footer h3 {
   border: 10px;
   padding: 2px;
 }
-.historia .historia1 h2 p, .historia .historia2 h2 p, .historia .historia3 h2 p {
+.historia .historia1 p, .historia .historia2 p, .historia .historia3 p {
   display: flex;
   align-items: center;
   text-align: start;
@@ -344,16 +345,31 @@ footer h3 {
   border: 10px;
   padding: 2px;
 }
-.historia .historia1 h2 p .ImgPrincipal, .historia .historia2 h2 p .ImgPrincipal, .historia .historia3 h2 p .ImgPrincipal {
+.historia .historia1 img, .historia .historia2 img, .historia .historia3 img {
   border-radius: 5px;
   border: 2px solid rgba(31, 58, 80, 0.801);
-  margin: 10px;
+  margin: 6px;
+  padding: 2px;
+}
+.historia .historia1 .imgPrincipal, .historia .historia2 .imgPrincipal, .historia .historia3 .imgPrincipal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   border-radius: 5px;
-  border: 10px;
+  border: 2px solid rgba(31, 58, 80, 0.801);
+  margin: 6px;
   padding: 2px;
 }
 
 .form {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(16, 11, 88, 0.75);
   font-weight: 600;
   border: 2px solid rgba(31, 58, 80, 0.801);
@@ -467,6 +483,10 @@ body {
   grid-area: img22;
 }
 
+.himg {
+  grid-area: himg;
+}
+
 .nProductos {
   grid-area: nProductos;
 }
@@ -549,6 +569,10 @@ footer {
     width: 250px;
     height: 250px;
   }
+  .himg {
+    width: 250px;
+    height: 250px;
+  }
   .video {
     width: 200px;
     height: 200px;
@@ -604,13 +628,16 @@ footer {
     height: 300px;
   }
   .imgPrincipal2 {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 200px;
+  }
+  .himg {
+    width: 300px;
+    height: 200px;
   }
   .nProductos {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: "nvProductos" "img22" "img22" "img22";
   }
   .img22 {
@@ -620,6 +647,11 @@ footer {
     justify-content: center;
   }
   .img2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .img3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
@@ -641,7 +673,7 @@ footer {
   }
   .comoFunciona2 {
     grid-template-columns: 40% 60%;
-    grid-template-areas: "comoFunciona img3";
+    grid-template-areas: "comoFunciona img3 img3";
   }
   .video2 {
     grid-template-columns: 100%;
@@ -654,11 +686,14 @@ footer {
   .nProductos {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: "nvProductos " "img22 " "img22 " "img22 ";
   }
   .ImgPrincipal {
-    width: 200px;
+    width: 300px;
+    height: 200px;
+  }
+  .himg {
+    width: 300px;
     height: 200px;
   }
   .img22 {

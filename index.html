@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
         <meta name="keywords"  content="IMPRESORA 3D, 3D, DIMENSION 3D, OBJETOS, DISEÑO"> 
         <meta name="author" content="Gastón Guzmán">
         <meta name="copiright" content="Guzmán.S.A.">
-    </head>
+     </head>
 
 <body class="bodycontainer">
 
@@ -58,30 +58,33 @@
 
     <section class="producto2">
 
-        <div class="producto">         
+           <div class="producto">         
              <h2 >Tipos De Producto y Materiales</h2>
 
-             <p>La impresión 3D es un proceso de fabricación de aditivos que crea un objeto físico a partir de un diseño digital. Existen diferentes tecnologías y materiales con los que podés imprimir en 3D, pero todos se basan en el mismo principio: un modelo digital se convierte en un objeto físico sólido tridimensional mediante la adición de material capa por capa.
-        Actualmente el plástico está presente allá donde vayamos, dado que es un elemento básico de muchos componentes de fabricación y productos de consumo. Gracias a su versatilidad y bajo coste, es perfecto para una amplia gama de propósitos. Pero junto con la versatilidad del plástico viene la necesidad de decidir entre las distintas alternativas para su diseño, fabricación y montaje.
+             <p>La impresión 3D es un proceso de fabricación de aditivos que crea un objeto físico a partir de un diseño digital, un modelo digital se convierte en un objeto físico sólido tridimensional mediante la adición de material capa por capa.
+             Actualmente el plástico está presente allá donde vayamos, dado que es un elemento básico de muchos componentes de fabricación y productos de consumo. Gracias a su versatilidad y bajo coste, es perfecto para una amplia gama de propósitos.
              </p>
-
-        </div>
+           </div>
         
-        <div id="carouselExampleIndicators" class="carousel slide d-block w-75 caru" data-bs-ride="carousel">
+         <div id="carouselExampleIndicators" class="carousel slide d-block w-75 caru" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active carusel">
-                <img src="./images/impresora.jpg" class="d-block w-100" alt="Imagen carusel 1">
+                <img src="./images/carru1.jpg" class="d-block w-100" alt="Imagen carusel 1">
               </div>
               <div class="carousel-item carusel">
-                <img src="./images/impresora1.jpg" class="d-block w-100" alt="imagen carusel 2">
+                <img src="./images/carru2.jpg" class="d-block w-100" alt="imagen carusel 2">
               </div>
               <div class="carousel-item carusel">
-                <img src="./images/impresoras-3d-1.jpg" class="d-block w-100" alt="imagen carusel 3">
+                <img src="./images/carru3.jpg" class="d-block w-100" alt="imagen carusel 3">
+              </div>
+              <div class="carousel-item carusel">
+                <img src="./images/carru4.jpg" class="d-block w-100" alt="imagen carusel 4">
               </div>
             </div>
             <button class="carousel-control-prev d-block" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -92,30 +95,35 @@
               <span class="carousel-control-next-icon d-block" aria-hidden="true"></span>
               <span class="visually-hidden d-block">Siguiente</span>
             </button>
-          </div>
-       
+          </div> 
     </section>
 
     <section class="sobreNosotros2">
         <div>
             <h2 class="sobreNosotros">Sobre Nosotros</h2>
             <p>
-            Somos una tienda online de articulos coleccionables, figuras de comic, anime y tambien diseños a pedido.
-            Tambien tenemos la opcion de objetos/piesas a medida por encargue.
-            Nuevos en el rubro pero llenos de ilucion para crecimiento mutio.
+            Somos una tienda online de articulos coleccionables, figuras de comic, anime y tambien te capacitamos con nuestros cursos.
+            Nuevos en el rubro pero llenos de ilucion para poder crecer en el rubro.
           </p>
         </div>
 
         <div class="imgProducto img2">
-          <img src="./images/impresoras-3d-1.jpg" alt="impresora1 " class="ImgPrincipal">
-          <img src="./images/objeto1.jpg" alt="prueba" class="ImgPrincipal">
+          <picture>
+            <source srcset="./images/sobreNosotros1_480.jpg" media="(max-width:480px)">
+            <source srcset="./images/sobreNosotros1_780.jpg" media="(max-width:780px)">
+            <img src="./images/sobreNosotros1.jpg" loading="lazy" alt="mujer posando al lado de una impresora 3d" class="ImgPrincipal">
+          </picture>
 
-      </div>
-        
+          <picture>
+            <source srcset="./images/sobreNosotros2_480.jpg" media="(max-width:480px)">
+            <source srcset="./images/sobreNosotros2_780.jpg" media="(max-width:780px)">
+            <img src="./images/sobreNosotros2.jpg" loading="lazy" alt="grupo de niños frente a una impresora 3d, escuchando a una señora hablar" class="ImgPrincipal">
+          </picture>
+        </div>   
     </section> 
     
     <section class="comoFunciona2">
-        <div>
+         <div>
             <h2 class="comoFunciona">¿Cómo Funciona?</h2>
             <p>
             El proceso de impresión FDM (Modelado por Deposición Fundida) comienza con un diseño digital y la selección del material a utilizar, llamado filamento.
@@ -123,17 +131,21 @@
             Una vez fundido, el material puede ser extruido en una ruta específica y predeterminada creada por el software en la computadora.
             A medida que el material se extruye capa por capa, se enfría y se solidifica, proporcionando la base para la siguiente capa de material hasta que se finaliza el objeto.
             </p>
-        </div>
+         </div>
 
-        <div class="imgProducto img3">
-            
+         <div class="imgProducto img3">
             <picture>
               <source srcset="./images/comofunciona-480.jpg" media="(max-width:480px)">
               <source srcset="./images/comofunciona-780.jpg" media="(max-width:780px)">
-              <img src="./images/comofuncionaOk.jpg" loading="lazy" alt="impresora2 " class="ImgPrincipal">
+              <img src="./images/comofuncionaOk.jpg" loading="lazy" alt="Imagen sobre los pasos de impresion 3d" class="ImgPrincipal">
             </picture>
 
-        </div>
+            <picture>
+              <source srcset="./images/comofunciona2_480.jpg" media="(max-width:480px)">
+              <source srcset="./images/comofunciona2_780.jpg" media="(max-width:780px)">
+              <img src="./images/comofunciona2Ok.jpg" loading="lazy" alt="escritorio de trabajo de impresion 3d, cuenta con su pc y su impresora" class="ImgPrincipal">
+            </picture>
+         </div>
 
     </section>
     

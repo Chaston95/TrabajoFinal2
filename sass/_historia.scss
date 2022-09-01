@@ -21,33 +21,38 @@
             border-radius: 5px;
             border: 10px;
             padding: 2px;
-    
-            p{
-                display: flex;
-                align-items: center;
-                text-align: start;
-                font-style: normal;
-                font-size: 16px;
-                font-weight:600;
-                font-family:'Times New Roman', Times, serif;
-                color: aliceblue;
-                margin: 10px;
-                border-radius: 5px;
-                border: 10px;
-                padding: 2px;
-    
-                .ImgPrincipal {
-                    border-radius: 5px;
-                    border: 2px solid rgba(31, 58, 80, 0.801);
-                    margin: 10px;
-                    border-radius: 5px;
-                    border: 10px;
-                    padding: 2px;  
-                }
-            }
         }
-    
-        
+        p{
+            display: flex;
+            align-items: center;
+            text-align: start;
+            font-style: normal;
+            font-size: 16px;
+            font-weight:600;
+            font-family:'Times New Roman', Times, serif;
+            color: aliceblue;
+            margin: 10px;
+            border-radius: 5px;
+            border: 10px;
+            padding: 2px;
+        }
+
+        img{
+            border-radius: 5px;
+            border: 2px solid rgba(31, 58, 80, 0.801);
+            margin: 6px;
+            padding: 2px;
+            
+        }
+        .imgPrincipal{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            border-radius: 5px;
+            border: 2px solid rgba(31, 58, 80, 0.801);
+            margin: 6px;
+            padding: 2px; 
+        }
     }
 }
-

@@ -1,4 +1,11 @@
 .form{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
     background-color:$colorFondo;
     font-weight: 600;
     border: 2px solid rgba(31, 58, 80, 0.801);
