@@ -25,7 +25,7 @@
         p{
             display: flex;
             align-items: center;
-            text-align: start;
+            text-align: justify;
             font-style: normal;
             font-size: 16px;
             font-weight:600;
@@ -37,21 +37,29 @@
             padding: 2px;
         }
 
+        .himg{
+            display: grid;
+            margin: 10px;
+            border-radius: 5px;
+            border: 10px;
+            padding: 2px;
+
+            .imgPrincipal{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                border-radius: 5px;
+                margin: 6px;
+                padding: 2px; 
+            }
+        }
+
         img{
             border-radius: 5px;
             margin: 6px;
             padding: 2px;
-            
         }
-        .imgPrincipal{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            border-radius: 5px;
-            margin: 6px;
-            padding: 2px; 
-        }
+}
 
-    }
 }

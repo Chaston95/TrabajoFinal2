@@ -144,21 +144,23 @@ footer{
         "footer"  
     }
     .ImgPrincipal{
-        width: 250px;
-        height: 150px;    
+        width: 200px;
+        height: 150px;  
     }
     .himg{
-        width: 250px;
-        height: 150px;  
+        display: grid;
+        border-radius: 5px;
+        width: 200px;
+        height: 150px;
     }
 
     .video{
         width: 200px;
-        height: 200px;
+        height: 120px;
     }
     .imgPrincipal2{
-        width: 250px;
-        height: 250px; 
+        width: 200px;
+        height: 150px;  
     }
     .nProductos{
         display: grid;
@@ -207,11 +209,13 @@ footer{
         grid-template-areas:
         "sobreNosotros" 
         "img2"
+        "img2"
     }
     .comoFunciona2{
         grid-template-columns: 100%;
         grid-template-areas:
         "comoFunciona" 
+        "img3"
         "img3"
     }
     .video2{
@@ -224,23 +228,29 @@ footer{
         grid-template-areas:
         "footer"   
     }
-    .video{
-        width: 300px;
-        height: 300px;
-    }
-    .imgPrincipal2{
-        width: 300px;
-        height: 150px;   
+    .ImgPrincipal{
+        width: 350px;
+        height: 180px;      
     }
     .himg{
-        width: 300px;
-        height: 150px;      
+        width: 350px;
+        height: 180px;   
     }
-
+    .img2{
+        display: grid;
+        justify-items: center;
+    }   
+    .img3{
+        display: grid;
+        justify-items: center;
+    }
+    .video{
+        width: 350px;
+        height: 180px;
+    }
     .nProductos{
         display: grid;
         grid-template-columns:100%;
-        
         grid-template-areas:
         "nvProductos"
         "img22"
@@ -253,16 +263,7 @@ footer{
         flex-wrap: wrap;
         justify-content: center;
     }
-    .img2{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-items: center;
-    }   
-    .img3{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-items: center;
-    }
+
     .contactanos1{
         grid-template-columns:1fr 1fr;
         grid-template-rows: 1fr;
@@ -328,7 +329,46 @@ footer{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center; 
+    }
+    .img2{
+        display: grid;
+        justify-items: center;
+    }   
+    .img3{
+        display: grid;
+        justify-items: center;
     } 
+}
+
+@media (min-width:900px){
+    
+    .sobreNosotros2{
+        grid-template-columns: 40% 60%;
+        grid-template-areas:
+        "sobreNosotros" 
+        "img2 img2"
+    }
+    .comoFunciona2{
+        grid-template-columns: 40% 60%;
+        grid-template-areas:
+        "comoFunciona" 
+        "img3 img3" 
+    }
+    .img2{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        justify-items: center;
+    }   
+    .img3{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        justify-items: center;
+    }
+    .ImgPrincipal{
+        width: 250px;
+        height: 150px;      
+    } 
+
 }
 
 /* animaciones :D*/

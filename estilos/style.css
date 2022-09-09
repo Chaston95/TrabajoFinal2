@@ -163,6 +163,7 @@ header nav ul li a {
   border-radius: 5px;
   border: 10px;
   padding: 2px;
+  justify-content: center;
 }
 .comoFunciona2 h2 p {
   font-style: normal;
@@ -334,7 +335,7 @@ footer h3 {
 .historia .historia1 p, .historia .historia2 p, .historia .historia3 p {
   display: flex;
   align-items: center;
-  text-align: start;
+  text-align: justify;
   font-style: normal;
   font-size: 16px;
   font-weight: 600;
@@ -345,16 +346,23 @@ footer h3 {
   border: 10px;
   padding: 2px;
 }
-.historia .historia1 img, .historia .historia2 img, .historia .historia3 img {
+.historia .historia1 .himg, .historia .historia2 .himg, .historia .historia3 .himg {
+  display: grid;
+  margin: 10px;
   border-radius: 5px;
-  margin: 6px;
+  border: 10px;
   padding: 2px;
 }
-.historia .historia1 .imgPrincipal, .historia .historia2 .imgPrincipal, .historia .historia3 .imgPrincipal {
+.historia .historia1 .himg .imgPrincipal, .historia .historia2 .himg .imgPrincipal, .historia .historia3 .himg .imgPrincipal {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  border-radius: 5px;
+  margin: 6px;
+  padding: 2px;
+}
+.historia .historia1 img, .historia .historia2 img, .historia .historia3 img {
   border-radius: 5px;
   margin: 6px;
   padding: 2px;
@@ -426,7 +434,7 @@ footer h3 {
 .cursos-section .curso1 p, .cursos-section .curso2 p, .cursos-section .curso3 p {
   display: flex;
   align-items: center;
-  text-align: start;
+  text-align: justify;
   font-style: normal;
   font-size: 16px;
   font-weight: 600;
@@ -595,20 +603,22 @@ footer {
     grid-template-areas: "footer";
   }
   .ImgPrincipal {
-    width: 250px;
+    width: 200px;
     height: 150px;
   }
   .himg {
-    width: 250px;
+    display: grid;
+    border-radius: 5px;
+    width: 200px;
     height: 150px;
   }
   .video {
     width: 200px;
-    height: 200px;
+    height: 120px;
   }
   .imgPrincipal2 {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 150px;
   }
   .nProductos {
     display: grid;
@@ -641,11 +651,11 @@ footer {
   }
   .sobreNosotros2 {
     grid-template-columns: 100%;
-    grid-template-areas: "sobreNosotros" "img2";
+    grid-template-areas: "sobreNosotros" "img2" "img2";
   }
   .comoFunciona2 {
     grid-template-columns: 100%;
-    grid-template-areas: "comoFunciona" "img3";
+    grid-template-areas: "comoFunciona" "img3" "img3";
   }
   .video2 {
     grid-template-columns: 100%;
@@ -655,17 +665,25 @@ footer {
     grid-template-columns: 100%;
     grid-template-areas: "footer";
   }
-  .video {
-    width: 300px;
-    height: 300px;
-  }
-  .imgPrincipal2 {
-    width: 300px;
-    height: 150px;
+  .ImgPrincipal {
+    width: 350px;
+    height: 180px;
   }
   .himg {
-    width: 300px;
-    height: 150px;
+    width: 350px;
+    height: 180px;
+  }
+  .img2 {
+    display: grid;
+    justify-items: center;
+  }
+  .img3 {
+    display: grid;
+    justify-items: center;
+  }
+  .video {
+    width: 350px;
+    height: 180px;
   }
   .nProductos {
     display: grid;
@@ -677,16 +695,6 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  .img2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-  }
-  .img3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
   }
   .contactanos1 {
     grid-template-columns: 1fr 1fr;
@@ -738,6 +746,38 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .img2 {
+    display: grid;
+    justify-items: center;
+  }
+  .img3 {
+    display: grid;
+    justify-items: center;
+  }
+}
+@media (min-width: 900px) {
+  .sobreNosotros2 {
+    grid-template-columns: 40% 60%;
+    grid-template-areas: "sobreNosotros" "img2 img2";
+  }
+  .comoFunciona2 {
+    grid-template-columns: 40% 60%;
+    grid-template-areas: "comoFunciona" "img3 img3";
+  }
+  .img2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .img3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .ImgPrincipal {
+    width: 250px;
+    height: 150px;
   }
 }
 /* animaciones :D*/
