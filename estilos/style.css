@@ -362,7 +362,7 @@ footer h3 {
 
 .contactanos1 {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-rows: 40% 60%;
   flex-direction: column;
   background-color: rgba(16, 11, 88, 0.75);
   margin: 10px;
@@ -556,6 +556,18 @@ footer {
   grid-area: historia3;
 }
 
+.contactanos1 {
+  grid-area: contactanos2;
+}
+
+.contactanos2 {
+  grid-area: contactanos2;
+}
+
+.form {
+  grid-area: form;
+}
+
 @media (min-width: 300px) {
   .header1 {
     margin-bottom: 1.5em;
@@ -612,6 +624,9 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .contactanos1 {
+    grid-template-areas: "contactanos2" "form";
   }
 }
 @media (min-width: 480px) {
@@ -672,6 +687,11 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+  }
+  .contactanos1 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "contactanos2  form";
   }
 }
 @media (min-width: 780px) {
